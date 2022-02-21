@@ -19,5 +19,5 @@ def Notice_Pnuts():
         logging.info("非公開")
         return
 # 1時間ごとに実行
-# schedule.every().hour.do(Notice_Pnuts)
-Notice_Pnuts()
+schedule.every().hour.do(Notice_Pnuts)
+# Notice_Pnuts()
