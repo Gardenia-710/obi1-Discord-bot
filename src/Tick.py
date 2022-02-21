@@ -6,7 +6,7 @@ config_ini = configparser.ConfigParser()
 config_ini.read("config.ini", encoding="UTF-8")
 
 # クライアントIDとかこの辺は環境変数にしたい
-client_id = "1MWo8D5urUEuCR46dI"
+client_id = ""
 #client_secret = config_ini["TICKTICK"]["secret"]
 redirect_uri = "https://api.ticktick.com/"
 
