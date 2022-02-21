@@ -8,4 +8,4 @@ services:
     tty: true
     volumes:
       - ./src:/root/src
-    env_file: env_file.env
+    env_file: /src/env_file.env
