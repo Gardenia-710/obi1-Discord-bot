@@ -9,4 +9,4 @@ services:
     volumes:
       - ./src:/root/src
     # Test用環境変数
-    # env_file: ./src/env_file.env
+    env_file: ./src/env_file.env
