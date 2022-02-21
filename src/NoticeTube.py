@@ -40,6 +40,7 @@ def yt_check():
             # TorFで返す
             return True
         # ファイルのあるなしで判断してる。多分もうちょっといいやり方ある。
+        # あ
         fl = os.path.exists("out.json")
         if fl==False:
             # print("非公開")
