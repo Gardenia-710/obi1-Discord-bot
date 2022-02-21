@@ -21,3 +21,7 @@ def Notice_Pnuts():
 # 1時間ごとに実行
 schedule.every().hour.do(Notice_Pnuts)
 # Notice_Pnuts()
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
