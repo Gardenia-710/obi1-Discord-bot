@@ -18,3 +18,4 @@ RUN python -m pip install discord.py
 RUN python -m pip install ticktick-py
 RUN python -m pip install discordwebhook
 RUN python -m pip install google-api-python-client
+RUN python -m pip install schedule

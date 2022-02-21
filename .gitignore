@@ -6,3 +6,6 @@ __pycache__/
 .devcontainer
 # envfile
 *.env
+TiTest.py
+*.json
+*.log

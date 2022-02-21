@@ -8,4 +8,5 @@ services:
     tty: true
     volumes:
       - ./src:/root/src
-    env_file: ./src/env_file.env
+    # Test用環境変数
+    # env_file: ./src/env_file.env

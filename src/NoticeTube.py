@@ -2,12 +2,10 @@
 # -*- coding: utf-8 -*-
 import os
 import json
-
 from apiclient.discovery import build
 
 def yt_check():
     API_KEY = os.environ["YOUTUBE_API_KEY"]
-    print(API_KEY)
     YOUTUBE_API_SERVICE_NAME = 'youtube'
     YOUTUBE_API_VERSION = 'v3'
     # CHANNEL_ID = 'UCybmNGptaQ6EhT9TWvqr3ZA'
