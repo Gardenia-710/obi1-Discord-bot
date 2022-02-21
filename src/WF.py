@@ -12,11 +12,13 @@ def Notice_Pnuts():
     discord = Discord(url=url)
     resp = NoticeTube.yt_check()
     if resp == True:
+        print("公開済み")
         discord.post(content="@everyone\n公開済み\nURL: https://www.youtube.com/watch?v=viZh-Y3Rz9o")
-        logging.info("公開済み")
+        # logging.info("公開済み")
     elif resp == False:
         # discord.post(content="非公開")
-        logging.info("非公開")
+        # logging.info("非公開")
+        print("非公開")
         return
 # 1時間ごとに実行
 schedule.every().hour.do(Notice_Pnuts)
