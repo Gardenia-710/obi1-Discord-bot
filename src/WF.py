@@ -12,7 +12,7 @@ def Notice_Pnuts():
     discord = Discord(url=url)
     resp = NoticeTube.yt_check()
     if resp == True:
-        discord.post(content="公開済み\nURL: https://www.youtube.com/watch?v=viZh-Y3Rz9o")
+        discord.post(content="@かぎしっぽ\n公開済み\nURL: https://www.youtube.com/watch?v=viZh-Y3Rz9o")
         logging.info("公開済み")
     elif resp == False:
         # discord.post(content="非公開")
